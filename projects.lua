@@ -19,8 +19,8 @@ workspace "dll-wrapper-examples"
         }   
         includedirs
         {
-            "H:/rover/rover-self-work/cpp/rover-fork/7z1604-srcWithVs2015Up3/CPP",
-            "H:/rover/rover-self-work/cpp/rover-fork/7z1604-srcWithVs2015Up3/C"
+            "3rdparty/lzma1604/CPP",
+            "3rdparty/lzma1604/C"
         }
         has_stdafx("src", "3rdparty/7zpp")
 

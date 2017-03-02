@@ -1,6 +1,6 @@
 cd /d "%~dp0"
 set astyle=%~dp0\AStyle.exe --style=linux --s4 --p --H --U --f --v --w --c --xe --xL --xW
-set dir_path=H:\rover\rover-self-work\cpp\rover-fork\dll-wrapper-examples\3rdparty\7zpp
+set dir_path=H:\rover\rover-self-work\cpp\rover-fork\dll-wrapper-examples\src
 echo "format source code......"
 for /R %dir_path% %%a in (*.cpp;*.c;*.cc;*.h;*.hpp) do %astyle% "%%a" 1>nul 2>nul
 echo "delete backup source code......"
